@@ -14,7 +14,6 @@ get '/newteam' do
     @sf = params["sf"]
     @pf = params["pf"]
     @center = params["c"]
-   
 
     erb :team
   end
